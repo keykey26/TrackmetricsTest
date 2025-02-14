@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "trackmetricstest.client", "trackmetricstest.client\trackmetricstest.client.esproj", "{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackmetricsTest.Server", "TrackmetricsTest.Server\TrackmetricsTest.Server.csproj", "{10CA77AA-8C04-43F4-B676-7F64939B0591}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA26A56-585B-5524-3B3B-B4FFE9AFE592}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{10CA77AA-8C04-43F4-B676-7F64939B0591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CA77AA-8C04-43F4-B676-7F64939B0591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CA77AA-8C04-43F4-B676-7F64939B0591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CA77AA-8C04-43F4-B676-7F64939B0591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8CD1D4-4B6C-4FDD-A742-4B41BAEA9EB0}
+	EndGlobalSection
+EndGlobal

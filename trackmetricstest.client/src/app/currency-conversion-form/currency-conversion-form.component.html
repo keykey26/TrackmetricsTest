@@ -1,0 +1,18 @@
+<h2>GBP converter</h2>
+
+<form (ngSubmit)="submitForm()">
+  <label for="BaseValue">Amount:</label>
+  <input type="number" class="form-control" id="BaseValue" name="BaseValue" [formControl]="baseValue" required   /> <br />
+  <label for="ConvertTo">Currancy:</label>
+  <select name="ConvertTo" id="ConvertTo" [formControl]="convertTo">
+    <option value="USD">USD</option>
+    <option value="AUD">AUD</option>
+    <option value="EUR">Euro</option>
+  </select><br />
+
+  <button type="submit">Submit</button>
+</form>
+
+<aside ngif="valueReturn">
+   {{ baseValue.value }} GBP equals {{formReturn.value}} {{ convertTo.value }}
+</aside>
